@@ -24,7 +24,7 @@ CCScene* MainMenuScene::scene()
 
 SEL_MenuHandler MainMenuScene::onResolveCCBCCMenuItemSelector(cocos2d::CCObject *pTarget, const char *pSelectorName)
 {
-    CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedPlay", MainMenuScene::pressedPlay);
+    CCB_SELECTORRESOLVER_CCMENUITEM_GLUE(this, "pressedPlay:", MainMenuScene::pressedPlay);
     return NULL;
 }
 
