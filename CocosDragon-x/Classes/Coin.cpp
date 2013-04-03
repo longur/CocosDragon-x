@@ -30,7 +30,7 @@ bool Coin::onAssignCCBCustomProperty(cocos2d::CCObject *pTarget, const char *pMe
             ret = true;
         }
     }
-    return false;
+    return ret;
 }
 
 void Coin::handleCollisionWith(GameObject* gameObject)
